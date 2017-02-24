@@ -1,14 +1,16 @@
 {
   "name": "Dynalist Tab Lock",
   "description": "Prevent Dyanlist Links from opening in new tabs",
-  "version": "1.0",
+  "version": "1.0.1",
+  
   "permissions": [
     "activeTab",
-    "https://dynalist.io/*"
+    "https://dynalist.io/*",
+    "http://127.0.0.1:8080/"
   ],
   "background": {
     "scripts": ["backgroundO.js"],
-    "persistent": false
+    "persistent": true
 },
   "manifest_version": 2
 }
