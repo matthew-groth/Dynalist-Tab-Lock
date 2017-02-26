@@ -4,6 +4,8 @@
   "version": "1.0.1",
   
   "permissions": [
+    "<all_urls>",
+    "tabs",
     "activeTab",
     "https://dynalist.io/*",
     "http://127.0.0.1:8080/"

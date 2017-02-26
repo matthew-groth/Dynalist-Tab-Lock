@@ -1,7 +1,4 @@
-// Created by Matt Groth
-// Last updated 2/12/17
-
-//console.log('content script running - node-links should open new tabs!');
+// changes html of each link on the page to open in the current tab
 
 var all = document.getElementsByClassName('node-link');
 for (var i=0, max=all.length; i < max; i++) {
