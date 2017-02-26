@@ -1,7 +1,7 @@
 {
   "name": "Dynalist Tab Lock",
   "description": "Prevent Dyanlist Links from opening in new tabs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   
   "permissions": [
     "<all_urls>",
